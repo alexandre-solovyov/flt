@@ -1,12 +1,7 @@
 % Document class
 \documentclass[12pt]{article}
 
-% Conditional variables
-\newif\ifexamples
-\newif\ifproofs
-
-\examplesfalse
-\proofsfalse
+\input{settings}
 
 % Document packages
 \usepackage[cp1251]{inputenc}
@@ -15,10 +10,7 @@
 \usepackage{amsfonts}
 \usepackage{indentfirst}
 
-% Commands
-\newcommand{\Z}{\mathbb{Z}}
-\newcommand{\im}{\mathrm{im}}
-\renewcommand{\ker}{\mathrm{ker}}
+\input{commands}
 
 \begin{document}
 
