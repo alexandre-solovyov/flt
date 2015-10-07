@@ -1,8 +1,6 @@
 % Document class
 \documentclass[12pt]{article}
 
-\input{settings}
-
 % Document packages
 \usepackage[cp1251]{inputenc}
 \usepackage[russian]{babel}
@@ -11,6 +9,7 @@
 \usepackage{indentfirst}
 
 \input{commands}
+\input{settings}
 
 \begin{document}
 
@@ -184,7 +183,7 @@ $\sigma(\zeta_n)^{(n/d)} = \zeta_n^{(an/d)} = (\zeta_n^n)^{(a/d)} = 1$,
 $\sigma(\zeta) = \sigma(\zeta_n^k) = \sigma(\zeta_n)^k = 
  \sigma(\zeta_n^a)^k =  \sigma(\zeta_n^k)^a = \zeta^a$.
 
-\QED
+\QED\fi
 
 Отметим, что $a$ хорошо определено по модулю $n$: 
 $\zeta_n^a = \zeta_n^b \Leftrightarrow a=b \mod n$,
@@ -221,7 +220,7 @@ $\sigma(\zeta) = \zeta \;\; \forall \zeta \in \mu_n$.
 это и доказывает, что гомоморфизма инъективен, поскольку
 предположив обратное, мы нашли бы элемент из ядра не равный $\id$.
 
-\QED
+\QED\fi
 
 Таким образом, группа Галуа циклического расширения всегда
 является подгруппой группы $(\Z/n)^*$.
@@ -351,7 +350,7 @@ $\overline g$, т.е. эти полиномы \textbf{не} взаимно простые.
 
 Это противоречие доказывает теорему.
 
-\QED
+\QED\fi
 
 \begin{theorem}
 Если простое $p$ не делит $n$, образ группы Галуа
